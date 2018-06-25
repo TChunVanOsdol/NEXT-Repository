@@ -1,0 +1,1 @@
+for y in range(7):print(*(' #'[0**(x%8*(x-y//4*3)%11*(y^6+(x<11)))]for x in range(14*(y!=3))))
